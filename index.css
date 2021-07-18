@@ -324,6 +324,124 @@ font-size: 30px;
 
 @media (max-width: 375px) {
     html {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 25px;
+    }
+  
+    /* nav */
+    .nav {
+      padding: 24px 20px;
+    }
+  
+    .nav-items :not(:last-child) {
+      padding-right: 23px;
+    }
+    .brand-logo img {
+      width: 82px;
+      height: 24px;
+    }
+  
+    /* hero section */
+    .hero img {
+      width: 305px;
+      height: 225px;
+    }
+    .hero h2 {
+      width: 302px;
+      margin: 23px;
+    }
+    .hero p {
+      width: 292px;
+      font-size: 12px;
+      padding: 0 23px;
+    }
+  
+    .cta {
+      width: 242px;
+      padding: 18px 0;
+    }
+  
+    /* features section */
+    .features {
+      grid-template-columns: 1fr;
+      gap: 87px 0px;
+      padding: 0 38px;
+      margin: 100px 0;
+    }
+  
+    /* More descriprion */
+  
+    .extra-description {
+      flex-direction: column;
+      padding: 0 25px;
+    }
+  
+    .img-box img {
+      height: 215px;
+      margin: 0px 0px 52px 0px;
+    }
+  
+    /* Testimonials */
+    .testimonials {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 150px 22px;
+    }
+    .testimonial:first-child::before {
+      left: 4px;
+    }
+  
+    /* sign up */
+    .sign-up {
+      padding: 40px 25px;
+      bottom: -175px;
+    }
+  
+    form {
+      flex-direction: column;
+    }
+    input[type="email"],
+    input[type="submit"] {
+      width: 280px;
+      margin: 0px 0px 25px 0px;
+    }
+  
+    /* footer */
+    footer {
+      grid-template-columns: 1fr;
+      padding: 280px 27px 42px 27px;
+      column-gap: 0;
+      row-gap: 20px;
+      grid-template-areas:
+        "logo"
+        "location"
+        "contact"
+        "links"
+        "more-links"
+        "social-icons";
+    }
+  
+    .social-icons i{
+      font-size: 28px;
+    }
+  
+    .fa-facebook{
+      justify-self: end;
+    }
+    .fa-twitter{
+      justify-self: center;
+    }
+    .fa-intagram{
+      justify-self: start;
+    }
+  }
+  
+  @media (max-width: 411px){
+
+    html {
       font-size: 10px;
     }
   
@@ -439,3 +557,491 @@ font-size: 30px;
     }
   }
   
+
+  @media (max-width: 414px){
+    html {
+      font-size: 10px;
+    }
+  
+    h2 {
+      font-size: 25px;
+    }
+  
+    /* nav */
+    .nav {
+      padding: 24px 20px;
+    }
+  
+    .nav-items :not(:last-child) {
+      padding-right: 23px;
+    }
+    .brand-logo img {
+      width: 82px;
+      height: 24px;
+    }
+  
+    /* hero section */
+    .hero img {
+      width: 305px;
+      height: 225px;
+    }
+    .hero h2 {
+      width: 302px;
+      margin: 23px;
+    }
+    .hero p {
+      width: 292px;
+      font-size: 12px;
+      padding: 0 23px;
+    }
+  
+    .cta {
+      width: 242px;
+      padding: 18px 0;
+    }
+  
+    /* features section */
+    .features {
+      grid-template-columns: 1fr;
+      gap: 87px 0px;
+      padding: 0 38px;
+      margin: 100px 0;
+    }
+  
+    /* More descriprion */
+  
+    .extra-description {
+      flex-direction: column;
+      padding: 0 25px;
+    }
+  
+    .img-box img {
+      height: 215px;
+      margin: 0px 0px 52px 0px;
+    }
+  
+    /* Testimonials */
+    .testimonials {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 150px 22px;
+    }
+    .testimonial:first-child::before {
+      left: 4px;
+    }
+  
+    /* sign up */
+    .sign-up {
+      padding: 40px 25px;
+      bottom: -175px;
+    }
+  
+    form {
+      flex-direction: column;
+    }
+    input[type="email"],
+    input[type="submit"] {
+      width: 280px;
+      margin: 0px 0px 25px 0px;
+    }
+  
+    /* footer */
+    footer {
+      grid-template-columns: 1fr;
+      padding: 280px 27px 42px 27px;
+      column-gap: 0;
+      row-gap: 20px;
+      grid-template-areas:
+        "logo"
+        "location"
+        "contact"
+        "links"
+        "more-links"
+        "social-icons";
+    }
+  
+    .social-icons i{
+      font-size: 28px;
+    }
+  
+    .fa-facebook{
+      justify-self: end;
+    }
+    .fa-twitter{
+      justify-self: center;
+    }
+    .fa-intagram{
+      justify-self: start;
+    }
+  }
+
+  @media (max-width: 411px){
+
+    html {
+      font-size: 10px;
+    }
+  
+    h2 {
+      font-size: 25px;
+    }
+  
+    /* nav */
+    .nav {
+      padding: 24px 20px;
+    }
+  
+    .nav-items :not(:last-child) {
+      padding-right: 23px;
+    }
+    .brand-logo img {
+      width: 82px;
+      height: 24px;
+    }
+  
+    /* hero section */
+    .hero img {
+      width: 305px;
+      height: 225px;
+    }
+    .hero h2 {
+      width: 302px;
+      margin: 23px;
+    }
+    .hero p {
+      width: 292px;
+      font-size: 12px;
+      padding: 0 23px;
+    }
+  
+    .cta {
+      width: 242px;
+      padding: 18px 0;
+    }
+  
+    /* features section */
+    .features {
+      grid-template-columns: 1fr;
+      gap: 87px 0px;
+      padding: 0 38px;
+      margin: 100px 0;
+    }
+  
+    /* More descriprion */
+  
+    .extra-description {
+      flex-direction: column;
+      padding: 0 25px;
+    }
+  
+    .img-box img {
+      height: 215px;
+      margin: 0px 0px 52px 0px;
+    }
+  
+    /* Testimonials */
+    .testimonials {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 150px 22px;
+    }
+    .testimonial:first-child::before {
+      left: 4px;
+    }
+  
+    /* sign up */
+    .sign-up {
+      padding: 40px 25px;
+      bottom: -175px;
+    }
+  
+    form {
+      flex-direction: column;
+    }
+    input[type="email"],
+    input[type="submit"] {
+      width: 280px;
+      margin: 0px 0px 25px 0px;
+    }
+  
+    /* footer */
+    footer {
+      grid-template-columns: 1fr;
+      padding: 280px 27px 42px 27px;
+      column-gap: 0;
+      row-gap: 20px;
+      grid-template-areas:
+        "logo"
+        "location"
+        "contact"
+        "links"
+        "more-links"
+        "social-icons";
+    }
+  
+    .social-icons i{
+      font-size: 28px;
+    }
+  
+    .fa-facebook{
+      justify-self: end;
+    }
+    .fa-twitter{
+      justify-self: center;
+    }
+    .fa-intagram{
+      justify-self: start;
+    }
+  }
+  
+
+  @media (max-width: 768px){
+    html {
+      font-size: 15px;
+    }
+  
+    h2 {
+      font-size: 29px;
+    }
+  
+    /* nav */
+    .nav {
+      padding: 24px 20px;
+    }
+    .nav-items{
+      padding-bottom: 60px;
+    }
+  
+    .nav-items :not(:last-child) {
+      padding-right: 23px;
+    }
+    .brand-logo img {
+      width: 95px;
+      height: 27px;
+     margin-bottom:50px ;
+    }
+  
+    /* hero section */
+    .hero img {
+      width: 325px;
+      height: 240px;
+    
+    }
+    .hero h2 {
+      width: 302px;
+      margin: 23px;
+    }
+    .hero p {
+      width: 292px;
+      font-size: 15px;
+      padding: 0 23px;
+    }
+  
+    .cta {
+      width: 242px;
+      padding: 18px 0;
+    }
+  
+    /* features section */
+    .features {
+      grid-template-columns: 1fr;
+      gap: 87px 0px;
+      padding: 0 38px;
+      margin: 100px 0;
+    }
+  
+    /* More descriprion */
+  
+    .extra-description {
+      flex-direction: column;
+      padding: 0 25px;
+    }
+  
+    .text-box{
+      text-align: center;
+    }
+    .img-box img {
+      height: 215px;
+      margin: 0px 0px 52px 0px;
+    }
+  
+    /* Testimonials */
+    .testimonials {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 150px 22px;
+    }
+    .testimonial:first-child::before {
+      left: 4px;
+    }
+  
+    /* sign up */
+    .sign-up {
+      padding: 40px 25px;
+      bottom: -175px;
+    }
+  
+    form {
+      flex-direction: column;
+    }
+    input[type="email"],
+    input[type="submit"] {
+      width: 280px;
+      margin: 0px 0px 25px 0px;
+    }
+  
+    /* footer */
+    footer {
+      grid-template-columns: 1fr;
+      padding: 280px 27px 42px 27px;
+      column-gap: 0;
+      row-gap: 20px;
+      grid-template-areas:
+        "logo"
+        "location"
+        "contact"
+        "links"
+        "more-links"
+        "social-icons";
+    }
+  
+    .social-icons i{
+      font-size: 28px;
+    }
+  
+    .fa-facebook{
+      justify-self: end;
+    }
+    .fa-twitter{
+      justify-self: center;
+    }
+    .fa-intagram{
+      justify-self: start;
+    }
+  }
+
+  @media (max-width: 1024px){
+    html {
+      font-size: 30px;
+    }
+  
+    h2 {
+      font-size: 32px;
+    }
+  
+    /* nav */
+    .nav {
+      padding: 24px 20px;
+    }
+    .nav-items{
+      padding-bottom:200px;
+    }
+  
+    .nav-items :not(:last-child) {
+      padding-right: 23px;
+    }
+    .brand-logo img {
+      width: 150px;
+      height: 32px;
+     margin-bottom:200px ;
+    }
+  
+    /* hero section */
+    .hero img {
+      width: 600px;
+      height: 350px;
+    
+    }
+    .hero h2 {
+      width: 302px;
+      margin: 23px;
+    }
+    .hero p {
+      width: 292px;
+      font-size: 15px;
+      padding: 0 23px;
+    }
+  
+    .cta {
+      width: 260px;
+      padding: 18px 0;
+    }
+  
+    /* features section */
+    .features {
+      grid-template-columns: 1fr;
+      gap: 87px 0px;
+      padding: 0 38px;
+      margin: 100px 0;
+    }
+  
+    /* More descriprion */
+  
+    .extra-description {
+      flex-direction: column;
+      padding: 0 25px;
+    }
+  
+    .text-box{
+      text-align: center;
+    }
+    .img-box img {
+      height: 215px;
+      margin: 0px 0px 52px 0px;
+    }
+  
+    /* Testimonials */
+    .testimonials {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      padding: 150px 22px;
+    }
+    .testimonial:first-child::before {
+      left: 4px;
+    }
+  
+    /* sign up */
+    .sign-up {
+      padding: 40px 25px;
+      bottom: -175px;
+      margin-bottom:-2cm ;
+     
+    }
+  
+    form {
+      flex-direction: column;
+    }
+    input[type="email"],
+    input[type="submit"] {
+      width: 280px;
+      margin: 0px 0px 25px 0px;
+    }
+  
+    /* footer */
+    footer {
+      grid-template-columns: 1fr;
+      padding: 280px 27px 42px 27px;
+      column-gap: 0;
+      row-gap: 20px;
+      grid-template-areas:
+        "logo"
+        "location"
+        "contact"
+        "links"
+        "more-links"
+        "social-icons";
+    }
+  
+    .social-icons i{
+      font-size: 28px;
+    }
+  
+    .fa-facebook{
+      justify-self: end;
+    }
+    .fa-twitter{
+      justify-self: center;
+    }
+    .fa-intagram{
+      justify-self: start;
+    }
+  }
